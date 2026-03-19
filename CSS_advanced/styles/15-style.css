@@ -350,7 +350,9 @@ template {
 
 /* End of normalize.css */
 
-* {
+*,
+*:before,
+*::after {
         box-sizing: border-box;
 }
 
